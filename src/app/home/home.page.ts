@@ -30,7 +30,7 @@ export class HomePage {
 
   ionViewDidEnter() {
     // Initialize map
-    this.map = L.map('mapId').setView([-6.172585117601355, 106.82667995208206], 11);
+    this.map = L.map('mapId').setView([-6.172585117601355, 106.82667995208206], 10);
 
     // Add default tile layer
     this.currentLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
